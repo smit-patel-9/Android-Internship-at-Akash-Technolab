@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".firstActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter first number"
+            android:inputType="number"
+            android:background="@drawable/shape"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/et1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter second number"
+            android:background="@drawable/shape"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:inputType="number"
+            android:id="@+id/et2"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter third number"
+            android:background="@drawable/shape"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:inputType="number"
+            android:id="@+id/et3"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter fourth number"
+            android:background="@drawable/shape"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:inputType="number"
+            android:id="@+id/et4"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter fifth number"
+            android:background="@drawable/shape"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:inputType="number"
+            android:id="@+id/et5"/>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_marginVertical="10dp"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20sp"
+            android:backgroundTint="#F44336"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="2"
+            android:id="@+id/btn2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="3"
+            android:id="@+id/btn3"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="4"
+            android:id="@+id/btn4"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="5"
+            android:id="@+id/btn5"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
