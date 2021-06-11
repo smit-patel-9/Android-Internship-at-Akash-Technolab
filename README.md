@@ -1,1 +1,1 @@
-# Android-Internship-at-Akash
+# Android-Internship-at-Akash Technolab
